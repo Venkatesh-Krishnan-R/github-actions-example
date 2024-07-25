@@ -32,5 +32,5 @@ jobs:
         tags: v1, latest
         registry: docker.io
         dockerfile: Dockerfile
-        username: 'kittaraooo'
-        password: 'Venki123.'
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
